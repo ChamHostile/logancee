@@ -348,3 +348,55 @@ footer{
 .footer-text>span:nth-child(2){
   font-weight: bold;
 }
+
+/*reorganisation des colonnes du site*/
+@media (max-width : 800px){
+   .container{
+    max-width : 500px;
+  }
+  
+  .header-title--agency_name{
+    width: 100%;
+    text-align: center;
+  }
+  
+  .carrousel-button>span{
+    margin : 0px;
+  }
+  
+  .body-about>.section-about--left>section{
+    margin-top : 20px;
+  }
+  
+  .body-about>.section-about--right>section{
+    margin-top : 20px;
+  }
+  
+  .body--gallery-main--firstRow>img{
+    width : calc(30% - 30px);
+  }
+  
+  .body--gallery-main--secondRow>img{
+    width : calc(20% - 30px);
+    margin : 0px;
+  }
+  
+  .body--gallery-main--secondRow>img:nth-child(2){
+    width : calc(70% - 30px);
+  }
+  
+  .body--gallery-main--thirdRow>img{
+    width : 50%;
+    position: relative;
+    top: 530px;
+    left: 32%;
+  }
+  
+  .body--gallery-main--thirdRow>.thirdRow--column>img{
+    width: calc(50% - 30px);
+  }
+  
+  .body--gallery-main--fourthRow>div{
+    width: 100%;
+  }
+}
