@@ -5,11 +5,17 @@
  */
 @import "reset.css";
 
+
+body{
+	background-image: url("../assets/img/home_agency.jpg");
+	background-size: cover;
+	margin : 0 auto;
+	height: 3700px;
+}
 /**
   header
 **/
 header{
-  background-color : black;
   height : 650px;
   background-image:  url("../assets/img/banner-lion.jpg");
   background-size:cover;
@@ -25,10 +31,12 @@ header{
   padding-top : 4.5vh;
   float : left;
 }
+
 .header-sandwich{
   float : right;
   margin : 4.5vh 3%;
 }
+
 .header-sandwich span{
 	display: block;
   width: 30px;
@@ -39,52 +47,63 @@ header{
   border-radius: 3px;
   z-index: 1;
 }
+
 .carrousel-button span{
   writing-mode: vertical-lr;
   text-orientation: upright;
 }
+
 .carrousel-button span:nth-child(1){
   float: left;
   margin-top : 50vh;
   margin-left : -10vw;
 }
+
 .carrousel-button span{
   float : right;
   margin-top : 50vh;
   margin-right : -5vw;
 }
+
 .header-title{
   padding-left : 19vw;
   padding-top : 33vh;
 }
+
 .header-title--welcome{
   margin-bottom : 7vh;
   
 }
+
 .header-title--agency_name{
   font-size: 2.9rem;
   width : 20%;
 }
+
 .header-title--description{
   font-size : 0.65rem;
   margin-left : 5px;
   width : 22%;
   margin-top : 2vh;
   line-height: 2vh;
+  color : #cdcdcd; 
 }
+
 .header-title span{
   color : #cdcdcd;  
 }
+
 .header-title--icon a {
   text-decoration:none; 
   border-radius: 50%;
-  display: block;
+  display: block; 
   height: 22px;
   width: 22px;
   border : white solid 2px;
   margin-top : 6vh;
   margin-left : 0.5vw;
 }
+
 .header-title--icon a::after{
 	content:"\25BC"; 
   display: block;
@@ -92,11 +111,108 @@ header{
   font-weight: bold;
   font-size: 1.2rem; 
   text-align: center;
-} 
+}
+
 .carrousel-points{
   text-align: center;
   margin-top : 17vh;
 }
+
 .carrousel-points span{
   font-size: 1.5rem;
+}
+
+.container{
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
+  font-family: arial;
+}
+
+.rectangle{
+  height: 3450px;
+  opacity: 0.5;
+  background-color: yellow;
+}
+.body-about{
+  margin-left : 9.2%;
+  margin-right : 9%;
+}
+.section-about--left img{
+  width : 43%;
+  float : right;
+  margin-top : 162px;
+}
+.section-about--left>section{
+  margin-bottom: 195px;
+}
+.section-about--left>section{
+  float: left;
+  width : 48%;
+  margin-top : 215px;
+}
+.section-about--left>section>span{
+  letter-spacing: 7px;
+  font-size : 1.2rem;
+}
+.section-about--left>section>h2{
+  margin-top : 17px;
+  font-size: 3rem;
+  letter-spacing: 0px;
+  font-weight: bold;
+}
+.section-about--left--description{
+  margin-top : 31px;
+  font-size: 0.8rem;
+} 
+.section-about--left--description>p{
+  width : 70%;
+  float : right;
+  line-height: 15px;
+}
+.section-about--left--description>span{
+  width : 23%;
+  float : left;
+  border-bottom: solid 3px black;
+}
+.section-about--left--counter{
+  margin-top : 163px;
+  font-weight: bold;
+}
+.section-about--right img{
+  width : 43%;
+  float : left;
+  margin-top : -35px;
+}
+.section-about--right>section{
+  margin-bottom: 195px;
+}
+.section-about--right>section{
+  float: right;
+  width : 50%;
+  margin-top : 215px;
+  text-align: right;
+}
+.section-about--right>section>span{
+  letter-spacing: 7px;
+  font-size : 1.2rem;
+}
+.section-about--right>section>h2{
+  margin-top : 17px;
+  font-size: 3rem;
+  letter-spacing: 0px;
+  font-weight: bold;
+}
+.section-about--right--description{
+  margin-top : 31px;
+  font-size: 0.8rem;
+} 
+.section-about--right--description>p{
+  width : 70%;
+  float : right;
+  line-height: 15px;
+}
+.section-about--right--counter{
+  margin-top : 163px;
+  font-weight: bold;
 }
