@@ -4,3 +4,38 @@
  * Reset
  */
 @import "reset.css";
+
+/**
+  header
+**/
+header{
+  background-color : black;
+  height : 565px;
+  background-image:  url("../assets/img/lion_model.png");
+  background-size:cover;
+  opacity : 0.5;
+}
+
+.header-logo h1{
+  font-size : 25px;
+  color : white;
+  margin-left:  3%;
+  font-family: 'Arial';
+  font-weight: bold;
+  padding-top : 8vh;
+  float : left;
+}
+.header-sandwich{
+  float : right;
+  margin : 8vh 3%;
+}
+.header-sandwich span{
+	display: block;
+  width: 30px;
+  height: 5px;
+  margin-bottom: 5px;
+  position: relative;
+  background: #cdcdcd;
+  border-radius: 3px;
+  z-index: 1;
+}
