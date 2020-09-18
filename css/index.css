@@ -322,3 +322,30 @@ Gallerie
   margin : 13px;
   margin-bottom : 0px;
 }
+
+footer{
+  background-color : #1c1c1c;
+  margin-top : 45px;
+  padding-top : 45px;
+  padding-bottom: 45px;
+}
+
+.footer-logos{
+  text-align: center;
+}
+
+.footer-logos img{
+  width : 2%;
+}
+
+.footer-text{
+  text-align: center;
+  font-family: arial;
+  color : white;
+  font-size : 0.7rem;
+  margin-top : 15px;
+}
+
+.footer-text>span:nth-child(2){
+  font-weight: bold;
+}
