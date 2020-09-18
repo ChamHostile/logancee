@@ -283,9 +283,8 @@ Gallerie
 
 .body--gallery-main--thirdRow>img:first-of-type{
   width : calc(33% - 15px);
-  float: left;
   margin-top : 15px;  
-  margin-left : -240px;
+  float : left; 
 }
 
 .body--gallery-main--thirdRow>.thirdRow--column img{
