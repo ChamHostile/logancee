@@ -134,7 +134,7 @@ header{
   opacity: 0.5;
   background-color: yellow;
 }
-.body-about{
+.body-about,.body-gallery{
   margin-left : 9.2%;
   margin-right : 9%;
 }
@@ -143,8 +143,8 @@ header{
   float : right;
   margin-top : 162px;
 }
-.section-about--left>section{
-  margin-bottom: 195px;
+.section-about--left>section, img{
+  margin-bottom: 125px;
 }
 .section-about--left>section{
   float: left;
@@ -182,15 +182,16 @@ header{
 .section-about--right img{
   width : 43%;
   float : left;
-  margin-top : -35px;
+  margin-top : 35px;
 }
-.section-about--right>section{
-  margin-bottom: 195px;
+.section-about--right>img, section{
+  margin-bottom: 165px;
 }
+
 .section-about--right>section{
   float: right;
   width : 50%;
-  margin-top : 215px;
+  margin-top : 90px;
   text-align: right;
 }
 .section-about--right>section>span{
@@ -215,4 +216,30 @@ header{
 .section-about--right--counter{
   margin-top : 163px;
   font-weight: bold;
+}
+.body-gallery--heading{
+  margin-top : 0px;
+}
+.body-gallery--heading-title>span{
+ font-size: 1.2rem;
+  letter-spacing: 4.5px;
+  margin-bottom: 60px;
+}
+.body-gallery--heading{
+  margin-bottom : 90px;
+}
+.body-gallery--heading-title>h2{
+  font-size: 3rem;
+  font-weight: bold;
+  margin-top : 10px;
+  margin-bottom : 45px;
+}
+.gallery-navbar>a{
+  text-decoration: none;
+  color : #cdcdcd;
+  font-size: 0.9rem;
+  margin-right : 8px;
+}
+.gallery-navbar>a:first-of-type{
+  color black; 
 }
