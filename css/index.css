@@ -10,24 +10,24 @@
 **/
 header{
   background-color : black;
-  height : 565px;
-  background-image:  url("../assets/img/lion_model.png");
+  height : 650px;
+  background-image:  url("../assets/img/banner-lion.jpg");
   background-size:cover;
-  opacity : 0.5;
+  color : white;
+  font-family : arial;
+  font-weight : bold;
 }
 
 .header-logo h1{
-  font-size : 25px;
-  color : white;
+  font-size : 1.8rem;
   margin-left:  3%;
   font-family: 'Arial';
-  font-weight: bold;
-  padding-top : 8vh;
+  padding-top : 4.5vh;
   float : left;
 }
 .header-sandwich{
   float : right;
-  margin : 8vh 3%;
+  margin : 4.5vh 3%;
 }
 .header-sandwich span{
 	display: block;
@@ -35,7 +35,68 @@ header{
   height: 5px;
   margin-bottom: 5px;
   position: relative;
-  background: #cdcdcd;
+  background: white;
   border-radius: 3px;
   z-index: 1;
+}
+.carrousel-button span{
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+}
+.carrousel-button span:nth-child(1){
+  float: left;
+  margin-top : 50vh;
+  margin-left : -10vw;
+}
+.carrousel-button span{
+  float : right;
+  margin-top : 50vh;
+  margin-right : -5vw;
+}
+.header-title{
+  padding-left : 19vw;
+  padding-top : 33vh;
+}
+.header-title--welcome{
+  margin-bottom : 7vh;
+  
+}
+.header-title--agency_name{
+  font-size: 2.9rem;
+  width : 20%;
+}
+.header-title--description{
+  font-size : 0.65rem;
+  margin-left : 5px;
+  width : 22%;
+  margin-top : 2vh;
+  line-height: 2vh;
+}
+.header-title span{
+  color : #cdcdcd;  
+}
+.header-title--icon a {
+  text-decoration:none; 
+  border-radius: 50%;
+  display: block;
+  height: 22px;
+  width: 22px;
+  border : white solid 2px;
+  margin-top : 6vh;
+  margin-left : 0.5vw;
+}
+.header-title--icon a::after{
+	content:"\25BC"; 
+  display: block;
+  color: white;
+  font-weight: bold;
+  font-size: 1.2rem; 
+  text-align: center;
+} 
+.carrousel-points{
+  text-align: center;
+  margin-top : 17vh;
+}
+.carrousel-points span{
+  font-size: 1.5rem;
 }
